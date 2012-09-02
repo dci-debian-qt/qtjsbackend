@@ -1,0 +1,9 @@
+usr/include/qt5/Qt/QtV8
+usr/include/qt5/Qt/qtv8version.h
+usr/include/qt5/QtV8/QtV8
+usr/include/qt5/QtV8/QtV8Version
+usr/include/qt5/QtV8/qtv8version.h
+usr/lib/*/libQtV8.prl
+usr/lib/*/libQtV8.so
+usr/lib/*/pkgconfig/QtV8.pc
+usr/share/qt5/mkspecs/modules/qt_v8.pri
