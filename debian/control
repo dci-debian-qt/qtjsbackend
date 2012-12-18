@@ -17,10 +17,10 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtjsbackend.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtjsbackend.git;a=summary
 
-Package: libqtv8-5
+Package: libqt5v8-5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 JavaScript backend module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -28,10 +28,11 @@ Description: Qt 5 JavaScript backend module
  .
  The Qt JavaScript backend module powered by V8 JavaScript engine.
 
-Package: libqtv8-5-dev
+Package: libqt5v8-5-dev
 Section: libdevel
 Architecture: any
-Depends: libqtv8-5 (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5v8-5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 JavaScript backend development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -39,10 +40,11 @@ Description: Qt 5 JavaScript backend development files
  This package contains the header development files used for building Qt 5
  applications using V8 JavaScript engine.
 
-Package: libqtv8-5-private-dev
+Package: libqt5v8-5-private-dev
 Architecture: any
 Section: libdevel
-Depends: libqtv8-5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5v8-5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 JavaScript backend private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -50,11 +52,12 @@ Description: Qt 5 JavaScript backend private development files
  This package contains the private header development files used for building
  Qt 5 applications using V8 JavaScript engine private headers.
 
-Package: libqtv8-5-dbg
+Package: libqt5v8-5-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Depends: libqtv8-5 (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5v8-5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 JavaScript backend debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
