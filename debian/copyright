@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: qtjsbackend-opensource-src
-Source: http://origin.releases.qt-project.org/qt5.0/rc2/submodules_tar/
+Source: http://releases.qt-project.org/qt5/5.0.0/submodules_tar/
 
 Files: *
 Copyright: 2006-2012, the V8 project authors. All rights reserved.
