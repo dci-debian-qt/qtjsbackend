@@ -1,5 +1,5 @@
 qtjsbackend-opensource-src (5.0.0-1) unstable; urgency=low
 
-  * Initial release.
+  * Initial release. (Closes: #697509)
 
  -- Timo Jyrinki <timo@debian.org>  Mon, 07 Jan 2013 06:43:38 +0000
