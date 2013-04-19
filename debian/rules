@@ -8,7 +8,7 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --list-missing --parallel --with pkgkde_symbolshelper --dbg-package=libqt5v8-5-dbg
+	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=libqt5v8-5-dbg
 
 override_dh_auto_configure:
 	qmake
