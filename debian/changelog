@@ -1,4 +1,4 @@
-qtjsbackend-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qtjsbackend-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not pass --list-missing. We are using --fail-missing in the exact rule.
@@ -6,7 +6,7 @@ qtjsbackend-opensource-src (5.0.2-2) UNRELEASED; urgency=low
     Qt4 as default get included.
     - Remove qt5-default as B-D, as it's not really needed now.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Apr 2013 17:58:02 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Apr 2013 14:40:57 -0300
 
 qtjsbackend-opensource-src (5.0.2-1) experimental; urgency=low
 
