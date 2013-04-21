@@ -1,4 +1,3 @@
-usr/lib/*/libQt5V8.so
 usr/include/qt5/QtV8/QtV8
 usr/include/qt5/QtV8/QtV8Version
 usr/include/qt5/QtV8/qtv8version.h
