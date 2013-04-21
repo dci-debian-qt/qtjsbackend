@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386
 libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v810CpuProfile6DeleteEv@Base 5.0.2
  _ZN2v810ScriptData10PreCompileENS_6HandleINS_6StringEEE@Base 5.0.2
@@ -89,12 +89,12 @@ libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v82V812IsGlobalWeakEPPNS_8internal6ObjectE@Base 5.0.2
  _ZN2v82V813DisposeGlobalEPPNS_8internal6ObjectE@Base 5.0.2
  _ZN2v82V813PauseProfilerEv@Base 5.0.2
- _ZN2v82V814AddObjectGroupEPNS_10PersistentINS_5ValueEEEmPNS_18RetainedObjectInfoE@Base 5.0.2
+ (subst)_ZN2v82V814AddObjectGroupEPNS_10PersistentINS_5ValueEEE{size_t}PNS_18RetainedObjectInfoE@Base 5.0.2
  _ZN2v82V814ResumeProfilerEv@Base 5.0.2
  _ZN2v82V815MarkIndependentEPPNS_8internal6ObjectE@Base 5.0.2
  _ZN2v82V816IdleNotificationEi@Base 5.0.2
  _ZN2v82V816IsProfilerPausedEv@Base 5.0.2
- _ZN2v82V816SetEntropySourceEPFbPhmE@Base 5.0.2
+ (subst)_ZN2v82V816SetEntropySourceEPFbPh{size_t}E@Base 5.0.2
  _ZN2v82V817GetHeapStatisticsEPNS_14HeapStatisticsE@Base 5.0.2
  _ZN2v82V817IsGlobalNearDeathEPPNS_8internal6ObjectE@Base 5.0.2
  _ZN2v82V817SetWrapperClassIdEPPNS_8internal6ObjectEt@Base 5.0.2
@@ -108,7 +108,7 @@ libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v82V820SetFatalErrorHandlerEPFvPKcS2_E@Base 5.0.2
  _ZN2v82V821AddGCEpilogueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEES1_@Base 5.0.2
  _ZN2v82V821AddGCPrologueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEES1_@Base 5.0.2
- _ZN2v82V821AddImplicitReferencesENS_10PersistentINS_6ObjectEEEPNS1_INS_5ValueEEEm@Base 5.0.2
+ (subst)_ZN2v82V821AddImplicitReferencesENS_10PersistentINS_6ObjectEEEPNS1_INS_5ValueEEE{size_t}@Base 5.0.2
  _ZN2v82V821LowMemoryNotificationEv@Base 5.0.2
  _ZN2v82V822IsExecutionTerminatingEPNS_7IsolateE@Base 5.0.2
  _ZN2v82V822RemoveMessageListenersEPFvNS_6HandleINS_7MessageEEENS1_INS_5ValueEEEE@Base 5.0.2
@@ -120,7 +120,7 @@ libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v82V824RemoveGCEpilogueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEE@Base 5.0.2
  _ZN2v82V824RemoveGCPrologueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEE@Base 5.0.2
  _ZN2v82V826IgnoreOutOfMemoryExceptionEv@Base 5.0.2
- _ZN2v82V826SetCreateHistogramFunctionEPFPvPKciimE@Base 5.0.2
+ (subst)_ZN2v82V826SetCreateHistogramFunctionEPFPvPKcii{size_t}E@Base 5.0.2
  _ZN2v82V826SetDecompressedStartupDataEPNS_11StartupDataE@Base 5.0.2
  _ZN2v82V827AddMemoryAllocationCallbackEPFvNS_11ObjectSpaceENS_16AllocationActionEiES1_S2_@Base 5.0.2
  _ZN2v82V827ContextDisposedNotificationEv@Base 5.0.2
@@ -130,10 +130,10 @@ libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v82V829GetCompressedStartupDataCountEv@Base 5.0.2
  _ZN2v82V829SetAddHistogramSampleFunctionEPFvPviE@Base 5.0.2
  _ZN2v82V830RemoveMemoryAllocationCallbackEPFvNS_11ObjectSpaceENS_16AllocationActionEiE@Base 5.0.2
- _ZN2v82V832SetReturnAddressLocationResolverEPFmmE@Base 5.0.2
+ (subst)_ZN2v82V832SetReturnAddressLocationResolverEPF{size_t}{size_t}E@Base 5.0.2
  _ZN2v82V833GetCompressedStartupDataAlgorithmEv@Base 5.0.2
  _ZN2v82V836SetFailedAccessCheckCallbackFunctionEPFvNS_5LocalINS_6ObjectEEENS_10AccessTypeENS1_INS_5ValueEEEE@Base 5.0.2
- _ZN2v82V837AdjustAmountOfExternalAllocatedMemoryEl@Base 5.0.2
+ (subst)_ZN2v82V837AdjustAmountOfExternalAllocatedMemoryE{ssize_t}@Base 5.0.2
  _ZN2v82V839SetUserObjectComparisonCallbackFunctionEPFbNS_5LocalINS_6ObjectEEES3_E@Base 5.0.2
  _ZN2v82V841SetAllowCodeGenerationFromStringsCallbackEPFbNS_5LocalINS_7ContextEEEE@Base 5.0.2
  _ZN2v82V841SetCaptureStackTraceForUncaughtExceptionsEbiNS_10StackTrace17StackTraceOptionsE@Base 5.0.2
