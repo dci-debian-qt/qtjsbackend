@@ -1,5 +1,8 @@
 qtjsbackend-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * debian/control: remove unused ${misc:Pre-Depends} from libqt5v8-5-dev,
+    libqt5v8-5-private-dev and libqt5v8-5-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 18:48:31 +0200
 

@@ -32,7 +32,7 @@ Description: Qt 5 JavaScript backend module
 Package: libqt5v8-5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5v8-5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 JavaScript backend development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -44,7 +44,7 @@ Description: Qt 5 JavaScript backend development files
 Package: libqt5v8-5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5v8-5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 JavaScript backend private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -57,7 +57,7 @@ Package: libqt5v8-5-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5v8-5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 JavaScript backend debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
