@@ -1,5 +1,8 @@
 qtjsbackend-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Confirm symbols files for i386.
+
   [ Pino Toscano ]
   * debian/control: remove unused ${misc:Pre-Depends} from libqt5v8-5-dev,
     libqt5v8-5-private-dev and libqt5v8-5-dbg.
@@ -15,7 +18,6 @@ qtjsbackend-opensource-src (5.0.2-2) experimental; urgency=low
   * Export QT_SELECT=qt5 to avoid a FTBFS when the debhelper patch that makes
     Qt4 as default get included.
     - Remove qt5-default as B-D, as it's not really needed now.
-  * Confirm symbols files for i386.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Apr 2013 14:40:57 -0300
 
