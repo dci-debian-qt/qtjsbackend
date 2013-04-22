@@ -1,4 +1,4 @@
-qtjsbackend-opensource-src (5.0.2-3) UNRELEASED; urgency=low
+qtjsbackend-opensource-src (5.0.2-3) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Confirm symbols files for i386.
@@ -9,7 +9,7 @@ qtjsbackend-opensource-src (5.0.2-3) UNRELEASED; urgency=low
   * debian/control: remove unused ${shlibs:Depends} from
     libqt5v8-5-private-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 18:48:31 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Apr 2013 17:56:04 -0300
 
 qtjsbackend-opensource-src (5.0.2-2) experimental; urgency=low
 
