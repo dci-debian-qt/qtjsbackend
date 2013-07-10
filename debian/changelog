@@ -5,6 +5,9 @@ qtjsbackend-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Update Vcs-Browser and Vcs-Git headers.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update watch file.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
 
 qtjsbackend-opensource-src (5.0.2-3) experimental; urgency=low
