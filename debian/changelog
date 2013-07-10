@@ -1,4 +1,4 @@
-qtjsbackend-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtjsbackend-opensource-src (5.1.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -16,7 +16,7 @@ qtjsbackend-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     we shipped.
   * Make libqt5v8-5-dbg M-A: same to allow coinstallation of debugging symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 09 Jul 2013 22:16:14 -0300
 
 qtjsbackend-opensource-src (5.0.2-3) experimental; urgency=low
 
