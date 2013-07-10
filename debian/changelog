@@ -8,6 +8,8 @@ qtjsbackend-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update watch file.
   * Bump Qt build dependencies to 5.1.0~.
+  * Remove libqt5v8-5-private-dev. So far no part of Qt seems to be using it.
+    Can be re added later if needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
 

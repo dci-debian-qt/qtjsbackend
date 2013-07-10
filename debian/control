@@ -41,18 +41,6 @@ Description: Qt 5 JavaScript backend development files
  This package contains the header development files used for building Qt 5
  applications using V8 JavaScript engine.
 
-Package: libqt5v8-5-private-dev
-Architecture: any
-Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libqt5v8-5-dev (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 JavaScript backend private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the private header development files used for building
- Qt 5 applications using V8 JavaScript engine private headers.
-
 Package: libqt5v8-5-dbg
 Priority: extra
 Architecture: any
