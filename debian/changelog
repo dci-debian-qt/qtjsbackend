@@ -10,6 +10,7 @@ qtjsbackend-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Bump Qt build dependencies to 5.1.0~.
   * Remove libqt5v8-5-private-dev. So far no part of Qt seems to be using it.
     Can be re added later if needed.
+    - Delete the files in the dh_auto_install override.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
 
