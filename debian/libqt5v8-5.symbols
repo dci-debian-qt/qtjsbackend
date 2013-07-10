@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64 armhf i386
 libQt5V8.so.5 libqt5v8-5 #MINVER#
 | libqt5v8-5 #MINVER#, qtjsbackend-abi-5-1-0
  _ZN2v810CpuProfile6DeleteEv@Base 5.0.2
@@ -114,7 +114,7 @@ libQt5V8.so.5 libqt5v8-5 #MINVER#
  _ZN2v82V819IsGlobalIndependentEPNS_8internal7IsolateEPPNS1_6ObjectE@Base 5.1.0
  _ZN2v82V819IsGlobalIndependentEPPNS_8internal6ObjectE@Base 5.1.0
  _ZN2v82V820SetFatalErrorHandlerEPFvPKcS2_E@Base 5.0.2
- _ZN2v82V820SetFunctionEntryHookEPFvmmE@Base 5.1.0
+ (subst)_ZN2v82V820SetFunctionEntryHookEPFv{size_t}{size_t}E@Base 5.1.0
  _ZN2v82V821AddGCEpilogueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEES1_@Base 5.0.2
  _ZN2v82V821AddGCPrologueCallbackEPFvNS_6GCTypeENS_15GCCallbackFlagsEES1_@Base 5.0.2
  (subst)_ZN2v82V821AddImplicitReferencesENS_10PersistentINS_6ObjectEEEPNS1_INS_5ValueEEE{size_t}@Base 5.0.2
