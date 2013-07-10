@@ -1,4 +1,5 @@
 usr/include/qt5/QtV8/QtV8
+usr/include/qt5/QtV8/QtV8Depends
 usr/include/qt5/QtV8/QtV8Version
 usr/include/qt5/QtV8/qtv8version.h
 usr/lib/*/libQt5V8.prl
