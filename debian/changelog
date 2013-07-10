@@ -14,6 +14,7 @@ qtjsbackend-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Update install files.
   * Update symbols files. The removed symbols where not present in the headers
     we shipped.
+  * Make libqt5v8-5-dbg M-A: same to allow coinstallation of debugging symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
 
