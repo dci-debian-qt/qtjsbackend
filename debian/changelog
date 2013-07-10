@@ -1,3 +1,7 @@
+qtjsbackend-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Jul 2013 12:20:01 -0300
+
 qtjsbackend-opensource-src (5.1.0-1) experimental; urgency=low
 
   * New upstream release.
