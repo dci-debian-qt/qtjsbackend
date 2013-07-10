@@ -1,6 +1,5 @@
-qtjsbackend-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+qtjsbackend-opensource-src (5.1.0-2) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Reintroduce private headers. They are used by qtjsbackend.
   * Make libqt5v8-5 provide qtjsbackend-api-5-1-0.
     In this way we can know if external packages are using private headers.
@@ -10,7 +9,7 @@ qtjsbackend-opensource-src (5.1.0-2) UNRELEASED; urgency=low
     - Add lintian override for libqt5v8-5.
   * Update symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Jul 2013 12:20:01 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 10 Jul 2013 12:44:12 -0300
 
 qtjsbackend-opensource-src (5.1.0-1) experimental; urgency=low
 
