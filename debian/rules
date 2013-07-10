@@ -23,7 +23,7 @@ override_dh_auto_install:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	# Remove private stuff we are not shipping.
-	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/QtV8/private/
+	rm -rfv debian/tmp/usr/include/qt5/QtV8/$(DEB_HOST_MULTIARCH)/QtV8/private/
 
 override_dh_install:
 	dh_install --fail-missing
