@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5V8.so.5 libqt5v8-5 #MINVER#
+| libqt5v8-5 #MINVER#, qtjsbackend-abi-5-1-0
  _ZN2v810CpuProfile6DeleteEv@Base 5.0.2
  _ZN2v810ScriptData10PreCompileENS_6HandleINS_6StringEEE@Base 5.0.2
  _ZN2v810ScriptData10PreCompileEPKci@Base 5.0.2

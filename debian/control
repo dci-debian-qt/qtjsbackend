@@ -46,6 +46,7 @@ Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5v8-5-dev (= ${binary:Version}), ${misc:Depends}
+Provides: qtjsbackend-abi-5-1-0
 Description: Qt 5 JavaScript backend private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
