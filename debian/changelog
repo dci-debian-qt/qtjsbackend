@@ -12,8 +12,8 @@ qtjsbackend-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     Can be re added later if needed.
     - Delete the files in the dh_auto_install override.
   * Update install files.
-  * Update symbols files. The removed symbols where not present in the headers we
-    shipped.
+  * Update symbols files. The removed symbols where not present in the headers
+    we shipped.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 15:54:45 +0200
 
