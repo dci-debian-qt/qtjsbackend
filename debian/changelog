@@ -1,5 +1,7 @@
 qtjsbackend-opensource-src (5.1.0-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Make libqt5v8-5-dev depend on qtbase5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Aug 2013 14:20:57 +0200
 
