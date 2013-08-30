@@ -1,4 +1,4 @@
-qtjsbackend-opensource-src (5.1.1-1) UNRELEASED; urgency=low
+qtjsbackend-opensource-src (5.1.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ qtjsbackend-opensource-src (5.1.1-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Tight Qt buil dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Aug 2013 14:20:57 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 30 Aug 2013 16:44:46 -0300
 
 qtjsbackend-opensource-src (5.1.0-3) unstable; urgency=low
 
