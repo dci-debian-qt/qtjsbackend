@@ -1,5 +1,8 @@
 qtjsbackend-opensource-src (5.1.1-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix orthography in previous changelog.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 22:43:53 -0300
 
 qtjsbackend-opensource-src (5.1.1-1) unstable; urgency=low
@@ -10,7 +13,7 @@ qtjsbackend-opensource-src (5.1.1-1) unstable; urgency=low
   * Make libqt5v8-5-dev depend on qtbase5-dev.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Tight Qt buil dependencies.
+  * Tighten Qt 5 build dependencies.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 30 Aug 2013 16:44:46 -0300
 
